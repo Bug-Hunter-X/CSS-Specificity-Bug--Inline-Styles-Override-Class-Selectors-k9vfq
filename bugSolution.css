@@ -1,0 +1,17 @@
+/* bugSolution.css */
+
+.container {
+  color: blue;
+}
+
+.special {
+  color: green !important; /*Use !important cautiously*/
+}
+
+/*OR*/
+
+.container .special {
+  color: green;
+}
+
+/*This targets container's special element more specifically*/
