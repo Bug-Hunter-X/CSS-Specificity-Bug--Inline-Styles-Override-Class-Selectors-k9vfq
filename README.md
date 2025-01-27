@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS bug related to specificity.  An inline style unexpectedly overrides a class selector due to higher specificity. The `bug.css` file shows the problematic CSS, and `bugSolution.css` provides a solution using more specific class selectors or the `!important` flag (used cautiously).
